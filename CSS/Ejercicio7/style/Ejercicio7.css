@@ -1,0 +1,204 @@
+ /* Estilos generales */
+            body {
+                background-color: #cfebab;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333;
+
+                margin: 0 auto;
+                width:95%;
+                max-width: 1200px;
+                padding:10px;
+
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                gap: 10px;
+
+            }
+
+            /* Título principal */
+            h1 {
+                background-color: #b3c03c;
+                color: white;
+                padding: 15px;
+                text-align: center;
+                border-radius: 10px;
+
+                grid-column:1 / 3;
+            }
+
+            /* Contenedor del menú */
+
+            nav{
+                grid-column:1/2;
+            }
+
+            div,
+            nav {
+                background-color: #d64747;
+                border: 2px solid #a0a8d8;
+                padding: 15px;
+                margin-bottom: 25px;
+                border-radius: 10px;
+                height: 400px;
+
+               
+            }
+
+            nav h3 {
+                text-align: center;
+                color: #3d5a4a;
+                margin-bottom: 10px;
+            }
+
+            /* Navegación */
+
+
+            nav ul {
+                padding-left: 20px;
+                padding-right: 20px;
+                list-style: none;
+                
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav li {
+                background-color: #e8eaf6;
+                margin: 5px 0;
+                padding: 8px;
+                border-radius: 6px;
+                color: #32752f;
+                text-align: center;
+                min-height: 50px;
+            }
+
+            nav li:hover {
+                background-color: #c5cae9;
+            }
+
+            nav a {
+                margin-top: 15px;
+                text-decoration: none;
+                color: #743e3e;
+                font-weight: bold;
+                display: block;
+            }
+
+            /* Formulario */
+            form {
+                background-color: #ffffff;
+                border: 2px solid #009688;
+                padding: 20px;
+                border-radius: 12px;
+                width: 95%;
+                max-width: 900px;
+            }
+
+            /* Fieldsets */
+            fieldset {
+                border: 2px solid #009688;
+                margin-bottom: 20px;
+                padding: 15px;
+                background-color: #e0f2f1;
+                border-radius: 10px;
+            }
+
+            /* Inputs y selects */
+            input[type="date"],
+            input[type="time"],
+            select {
+                margin: 10px 0;
+                padding: 8px;
+                width: 100%;
+          
+                border-radius: 6px;
+                border: 1px solid #555;
+            }
+
+            #fechayhora {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+
+            #flexCiudades {
+                background-color: #b4e9f0;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            .ciudades {
+                flex: 1 1 200px;
+                
+            }
+
+            /* Legends */
+            legend {
+                padding: 5px 10px;
+                background-color: #009688;
+                color: white;
+                border-radius: 6px;
+            }
+
+            #otras_op {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+            /* Checkbox */
+            #pmr {
+                background-color: #cea7a7;
+                border: 2px solid #a0a8d8;
+                height: 200px;
+                padding: 15px;
+                margin-top: 25px;
+                border-radius: 10px;
+                align-content: center;
+                font-weight: bold;
+
+                flex: 1 1 200px;
+            }
+
+            input[type="checkbox"] {
+                margin-left: 40px;
+                border: 2px solid blue;
+            }
+
+            /* Área de texto */
+            #comentarios {
+                height: 200px;
+                margin-top: 25px;
+                flex: 1 1 200px;
+            }
+
+            textarea {
+                width: 95%;
+                height:60%;                
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 8px;
+                border: 1px solid #555;
+            }
+
+            /* Botón enviar */
+            #bottom {
+                background-color: #ff5722;
+                color: white;
+                padding: 12px 25px;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            #bottom:hover {
+                background-color: #e64a19;
+            }

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Juanan Profe" />
+        <meta name="description" content="Ejemplo de formularios en Lenguaje de Marcas" />
+        <title>Ejercicio Formularios</title>
+    </head>
+    <body>
+        <form method="get" action="info_formulario.php">
+            <h1>Adivina las banderas</h1>
+            <fieldset>
+                <legend>Francia</legend>
+                <p>
+                    <label>
+                        Elige un color para la bandera:
+                        <input type="color" name="color_francia_1" />
+                        <input type="color" name="color_francia_2" />
+                        <input type="color" name="color_francia_3" />
+                    </label>
+                </p>
+
+                <p>
+                    <label> Pincha para ver la solución: </label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Bélgica</legend>
+                <p>
+                    <label>
+                        Elige un color para la bandera:
+                        <input type="color" name="color_belg_1" />
+                        <input type="color" name="color_belg_2" />
+                        <input type="color" name="color_belg_3" />
+                    </label>
+                </p>
+
+                <p>
+                    Pincha para ver la solución:
+                    <a href="https://es.wikipedia.org/wiki/Bandera_de_Francia" target="_blank">
+                        <img src="" alt="Imagen que abre en nueva pestaña" />
+                    </a>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Italia</legend>
+                <p>
+                    <label>
+                        Elige un color para la bandera:
+                        <input type="color" name="color_ita_1" />
+                        <input type="color" name="color_ita_2" />
+                        <input type="color" name="color_ita_3" />
+                    </label>
+                </p>
+
+                <p>
+                    <label> Pincha para ver la solución: </label>
+                </p>
+            </fieldset>
+
+            <input type="submit" />
+        </form>
+    </body>
+</html>

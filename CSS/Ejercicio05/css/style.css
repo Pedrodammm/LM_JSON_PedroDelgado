@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul{
+    border: 2px solid black ;
+    list-style: none;
+    padding:1%;
+    width: 98%;
+    margin:1% auto;
+    text-align: center;
+
+}
+li{
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0) ;
+    width: 10%;
+    text-align: center;
+}
+a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    padding: 10% 5%;
+    background-color: rgba(38, 202, 38, 0.719);
+    font-weight: bolder;
+}
+a:hover{
+    background-color: rgb(77, 41, 175);
+    color: white;
+}

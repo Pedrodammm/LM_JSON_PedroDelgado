@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sistemas_gestores>
+
+  <sistema>
+    <nombre>MySQL</nombre>
+    <anio_creacion>1995</anio_creacion>
+    <empresa>MySQL AB</empresa>
+    <propietario>Oracle</propietario>
+    <tipo>Sistema de gestión de bases de datos relacional basado en SQL</tipo>
+    <estructura>Tablas estructuradas con filas y columnas</estructura>
+    <formato></formato>
+    <orientacion></orientacion>
+    <consultas>Consultas estructuradas y operaciones transaccionales</consultas>
+    <aplicaciones>sitios web, sistemas empresariales y aplicaciones</aplicaciones>
+    <ventajas>
+		<ventaja>Estabilidad</ventaja>
+		<ventaja>Amplia adopción</ventaja>
+		<ventaja>Gran comunidad de soporte</ventaja>
+		<ventaja>Código abierto</ventaja>
+	</ventajas>
+    <desventajas>
+		<desventaja>Falta de flexibilidad para manejar datos no estructurados o esquemas cambiantes</desventaja>
+	</desventajas>
+    <caracteristicas>Relaciones mediante claves, consistencia fundamental</caracteristicas>
+  </sistema>
+
+  <sistema>
+    <nombre>MongoDB</nombre>
+    <anio_creacion>2009</anio_creacion>
+    <empresa>10gen</empresa>
+    <propietario>MongoDB Inc.</propietario>
+    <tipo>Base de datos NoSQL orientada a documentos</tipo>
+    <estructura>Documentos</estructura>
+    <formato>JSON o BSON</formato>
+    <orientacion>Estructuras dinámicas sin necesidad de esquema fijo</orientacion>
+    <consultas></consultas>
+    <aplicaciones>APIs, plataformas web y sistemas con grandes volúmenes de datos variables</aplicaciones>
+	<ventajas>
+		<ventaja>Escalabilidad horizontal</ventaja>
+		<ventaja> flexibilidad, facilidad de desarrollo</ventaja>
+	</ventajas>
+	<desventajas>
+		<desventaja>Menor eficiencia y consistencia en transacciones complejas</desventaja>
+	</desventajas>
+    <caracteristicas>Adaptación a aplicaciones modernas, ausencia de esquema fijo</caracteristicas>
+  </sistema>
+
+  <sistema>
+    <nombre>Azure SQL Database</nombre>
+    <anio_creacion>2010</anio_creacion>
+    <empresa>Microsoft</empresa>
+    <propietario>Microsoft</propietario>
+    <tipo>Versión en la nube del motor de base de datos SQL Server ofrecida como servicio (PaaS)</tipo>
+    <estructura></estructura>
+    <formato></formato>
+    <orientacion>Sistema relacional tradicional en la nube</orientacion>
+    <consultas></consultas>
+    <aplicaciones></aplicaciones>
+	<ventajas>
+		<ventaja>Alta disponibilidad</ventaja>
+		<ventaja> Seguridad integrada</ventaja>
+		<ventaja> Facilidad de integración con el ecosistema Azure</ventaja>
+	</ventajas>
+    <desventajas>, </desventajas>
+	<desventajas>
+		<desventaja>Dependencia del proveedor</desventaja>
+		<desventaja>Posibilidad de costos elevados</desventaja>
+	</desventajas>
+    <caracteristicas>Mantenimiento, copias de seguridad y escalado automático gestionado por Microsoft</caracteristicas>
+  </sistema>
+
+</sistemas_gestores>

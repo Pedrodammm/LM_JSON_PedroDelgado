@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Juanan Profe" />
+        <meta name="description" content="Ejemplo de formularios en Lenguaje de Marcas" />
+        <title>Ejercicio Formularios</title>
+    </head>
+    <body>
+        <h1>Servicio técnico TelefonoLoco</h1>
+        <form method="get" action="info_formulario.php">
+            
+            
+            <p>
+                <label>
+                    Código de incidencia:<br />
+                    <input type="text" name="num" size="20" maxlength="50" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    Fecha de la incidencia:<br />
+                    <input type="date" name="fecha" size="20" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    Hora de la incidencia:<br />
+                    <input type="time" name="hora" size="20" />
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    Breve descripción de la incidencia:<br />
+                    <textarea name="descripcion" rows="10" cols="50"></textarea>
+                </label>
+            </p>
+            <input type="submit">
+        </form>
+    </body>
+</html>

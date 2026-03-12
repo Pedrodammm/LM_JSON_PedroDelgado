@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hundir_la_flota origen="Estados Unidos" anio_invencion="1931">
+	<n_jugadores>2</jugadores>
+	<elementos_del_juego>
+		<tablero>
+			<tablero_de_oceano>
+				<filas>10</filas>
+				<columnas>10</columnas>
+				<descripcion>Tu territorio, aquí solamente distribuyes tu flota antes d comenzar la partida</descripcion>
+			</tablero_de_oceano>
+			<tablero_de_tiro>
+				<filas>10</filas>
+				<columnas>10</columnas>
+				<descripcion>El territorio enemigo, donde tiene su flota. Aqui haces tus disparos para tratar de hundir la flota enemiga. Aquí registraras los disparos al agua y a su flota</descripcion>
+			</tablero_de_tiro>
+		</tablero>
+		
+		<flota numero_de_barcos="9">
+			<portaavione>
+				<cantidad>1</cantidad>
+				<casillas>4</casillas>
+			</portaavione>
+			<submarino_o_acorazado>
+				<cantidad>3</cantidad>
+				<casillas>3</casillas>
+			</submarino_o_acorazado>
+			<destructore>
+				<cantidad>3</cantidad>
+				<casillas>2</casillas>
+			</destructores>
+			<fragata>
+				<cantidad>2</cantidad>
+				<casillas>1</casillas>
+			</fragata>
+		</flota>
+	</elementos_del_juego>
+	
+	<movimientos>
+		<agua>
+			<descripcion> Cuando disparas al agua pones una X en esa casilla y pasa al turno del rival</descripcion>
+		</agua>
+		<tocado>
+			<descripcion> Cuando disparas a una casilla en la que hay un barco que ocupa 2 o mas casillas, le has tocado. En tu tablero señalas que has tocado esa casilla. Vuelves a disparar</descripcion>
+		</tocado>
+		<hundido>
+			<descripcion> si disparas en una casilla en la que está ubicado un fragata (1 casilla) u otro barco con el resto de casillas tocadas, le has hundido, es decir, has eliminado ese barco del juego. Si hay mas flotas, disparas de nuevo, si no quedan más, has ganado</descripcion>
+		</hundido>
+	</movimientos>
+	
+	<reglas>
+		<regla>Unas vez posicionas tu flota, no puedes cambiarla de posicion</regla>
+		<regla>Tienes 15 segundos para disparar</regla>
+	</reglas>
+	<fin_de_la_partida>
+		<ganador>Gana el jugador que antes hunda la flota enemiga</ganador>
+	</fin_de_la_partida>
+</hundir_la_flota>

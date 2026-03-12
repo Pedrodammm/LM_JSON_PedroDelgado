@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen</title>
+        <link rel="stylesheet" href="../css/examenPedro.css"/>
+        <style>
+           
+        </style>
+    </head>
+
+    <body>
+        <h1>Academia Alan Turing</h1>
+        <nav>
+            <h3>Sobre nuestros cursos...</h3>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </nav>
+
+        <form method="GET" action="datos.php">
+
+            <fieldset id="accede_curso">
+                <legend>Accede a tu curso</legend>
+                <label id="user">
+                    User:
+                    <input type="text" name="user" placeholder="Usuario">
+                </label>
+                <label id="password">
+                    Password:
+                    <input type="text" name="password" placeholder="Clave">
+                </label>
+            </fieldset>
+            
+            <div id="curso_nivel">
+                <fieldset class="curso_nivel">
+                    <legend>Elige curso y nivel</legend>
+                    <p id="tipo_curso">
+                        Curso:
+                        <input type="radio" name="tipo_curso" id="curso_html" />HTML                                             
+                        <input type="radio" name="tipo_curso" id="curso_css" />CSS
+                        <input type="radio" name="tipo_curso" id="curso_js" />JavaScript
+                    </p>
+                
+                    
+                    Nivel:<select id="niveles" name="nivel_curso">
+                        <option value="ini">Inicial</option>
+                        <option value="med">Medio</option>
+                        <option value="ava">Avanzado</option>
+                    </select>
+
+                </fieldset>
+            </div>
+
+            <fieldset id="condiciones">
+                <legend>Condiciones y acceso</legend>
+                <label">
+                    <input id="terminos" type="checkbox" name="plazaH" required>Acepta las condiciones de uso
+                    <input id="vamos" type="submit" value="Vamos al curso" name="Enviar">
+                </label>
+                
+            </fieldset>
+            
+
+        </form>
+        <p id="info">
+                Academia Alan Turing Tlf: 952 43 12 24 Mail: turingacademy@tacademy.es
+        </p>
+    </body>
+
+</html>

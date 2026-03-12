@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cines_rosaleda
+    xmlns:peli="www.pelisRosaleda.es"
+    xmlns:ope="www.operasMalaga.net">
+	
+	<nombre>Cines Rosaleda </nombre>
+	<direccion>
+		<calle>Avenida Simón Bolívar</calle>
+		<numero>s/n</numero>
+		<provincia>Málaga</provincia>
+		<pais>España</pais>
+	</direccion>
+	 <url_ubicacion>https://maps.app.goo.gl/RLTN2kt39csWyv9k9</url_ubicacion>
+	 
+	 <peli:peliculas>
+		<peli:pelicula>
+			<peli:titulo>The toxic avenger</peli:titulo>
+			<peli:director>Macon Blair</peli:director>
+			<peli:duracion>102</peli:duracion>
+			<peli:genero>Comedia</peli:genero>
+			<peli:calificacion>+16</peli:calificacion>
+			<peli:estreno>
+				<peli:dia unidad="dia">26</peli:dia>
+				<peli:mes unidad="mes">09</peli:mes>
+				<peli:anio unidad="año">2025</peli:anio>
+			</peli:estreno>
+			<peli:reparto>
+				<peli:actor>Peter Dinklage</peli:actor>
+				<peli:actor>Kevin Bacon</peli:actor>
+				<peli:actor>Elijah Wood</peli:actor>
+				<peli:actor>Julia Davis</peli:actor>
+			</peli:reparto>
+		</peli:pelicula>
+		
+		<peli:pelicula>
+			<peli:titulo>El cautivo</peli:titulo>
+			<peli:director>Alejandro Amenábar</peli:director>
+			<peli:duracion>133</peli:duracion>
+			<peli:genero></peli:genero>
+			<peli:calificacion>+12</peli:calificacion>
+			<peli:estreno>
+				<peli:dia unidad="dia">12</peli:dia>
+				<peli:mes unidad="mes">09</peli:mes>
+				<peli:anio unidad="año">2025</peli:anio>
+			</peli:estreno>
+			<peli:reparto>
+				<peli:actor>Julio Peña</peli:actor>
+				<peli:actor>Alessandro Borghia</peli:actor>
+				<peli:actor>Miguel Rellán</peli:actor>
+				<peli:actor>Fernando Tejero</pel:actor>
+			</pel:reparto>
+		</pel:pelicula>
+	</peliculas>
+	
+	<operas>
+		<ope:operas>
+			<ope:titulo>El cascanueces ballet ucc 2025</ope:titulo>
+			<ope:director></ope:director>
+			<ope:duracion>210</ope:duracion>
+			<ope:genero></ope:genero>
+			<ope:calificacion></ope:calificacion>
+			<ope:estreno>
+				<ope:dia unidad="dia">10</ope:dia>
+				<ope:mes unidad="mes">12</ope:mes>
+				<ope:anio unidad="año">2025</ope:anio>
+			</ope:estreno>
+			<ope:reparto>
+				<ope:actor>Julia Trevelyan Oman</ope:actor>
+			</ope:reparto>
+		</ope:operas>
+		
+	 </operas>
+</cines_rosaleda>

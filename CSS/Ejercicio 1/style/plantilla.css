@@ -1,0 +1,22 @@
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+p {
+  color: blueviolet;
+  background-color: azure;
+  font-size: large;
+}
+
+h3 {
+  color: white;
+  background-color: orange;
+  border: 2px solid black;
+}
+
+a {
+  color: white;
+  background-color: blue;
+}

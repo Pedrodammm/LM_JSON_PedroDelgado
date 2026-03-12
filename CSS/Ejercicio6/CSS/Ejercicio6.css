@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(170, 203, 241);
+}
+#cajagrande{
+    width: 80%;
+    margin: auto;
+    border: 4px solid black;
+    gap: 10px;
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+#cajagrande>div{
+    background-color: rgb(37, 190, 251);
+    border: 2px solid black;
+    margin: 10px;
+    
+    min-width: 100px;
+    flex: 1 1 auto;
+    
+}
+
+#caja1:hover{ /* para el color */
+    background-color: rgb(192, 214, 247); 
+}
+#caja2:hover{ /* para el color */
+    background-color: rgb(245, 245, 245); 
+}
+#caja3:hover{ /* para el color */
+    background-color: rgb(7, 54, 125); 
+}
+#caja4:hover{ /* para el color */
+    background-color: rgb(29, 34, 40); 
+}
+
+
+button{
+    display: block;
+    margin:auto;
+
+    padding: 2%;
+    width: 80%;
+    border-radius: 99px;
+    text-align: center;
+    background-color: rgb(109, 164, 247);
+    border: 1px solid black;
+    margin-bottom: 5px;
+}

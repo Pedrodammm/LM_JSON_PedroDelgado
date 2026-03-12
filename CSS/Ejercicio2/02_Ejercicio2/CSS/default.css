@@ -1,0 +1,49 @@
+ * {
+     border-radius: 10px;
+ }
+
+ .titulo {
+     background-color: bisque;
+     border: blue;
+     border-style: dotted;
+     color: red;
+     text-align: center;
+ }
+
+ body {
+     background-image: url(../imagenes/fondoLibros.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ #dIntro {
+     background-color: palevioletred;
+ }
+
+ #dDesarrollo {
+     background-color: orangered;
+ }
+
+ #dDesenlace {
+     background-color: green
+ }
+
+ #dFinal {
+     background-color: cadetblue
+ }
+
+ .enlaceNav {
+     background-color: rgb(255, 200, 128);
+     color: rgb(123, 14, 14);
+ }
+
+ .enlaceText {
+     background-color: black;
+     color: aqua;
+ }
+
+ .cSpan {
+     font-weight: bolder;
+     font-style: italic;
+ }

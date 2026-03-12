@@ -1,0 +1,35 @@
+<?xml version="1.0'" encoding="UTF-8"?>
+<paquetes>
+	<paquete>
+		<procedencia>Cadiz</procedencia>
+		<destino>Las palmas</procedencia>
+		<fragil>sí>/fragil>
+		<peso unidad="kg" sobrepeso="sí">48</peso>
+		<dimensiones unidad="cm">
+			<altura>15</altura>
+			<ancho>28</ancho>
+			<largo>10</largo>
+		</dimensiones>
+		<tipo_envio>correo aéreo</tipo_envio>
+	</paquete>
+
+	<paquete>
+		<procedencia>malaga</procedencia>
+		<destino>Estambul</procedencia>
+		<fragil/>
+		<peso unidad="lb">150</peso>
+		<dimensiones unidad="cm">
+			<altura>15</altura>
+			<ancho>28</ancho>
+			<largo>10</largo>
+		</dimensiones>
+		<tipo_envio>mercante</tipo_envio>
+		<remitente>
+			<nombre>Pablo</nombre>
+			<apellidos>
+				<apellido1>Escobar</apellido1>
+				<apellido2>López</apellido2>
+			</apellidos>
+		</remitente
+	</paquete>
+</paquetes>

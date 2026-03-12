@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figuras>
+	<figura_plana>
+		<nombre>cuadrado</nombre>
+		<lados unidad="lados">4</lados>
+		</figura>
+	</figura_plana>
+		
+	<figura_plana>
+		<nombre>triangulo</nombre>
+		</lados>
+		</figura>
+	</figura_plana>
+	
+	<figura_tridimensional>
+		<nombre>cubo</nombre>
+		<aristas unidad="aristas">12</aristas>
+		<caras unidad="caras">6</caras>
+	</figura_tridimensional>	
+</figuras>	

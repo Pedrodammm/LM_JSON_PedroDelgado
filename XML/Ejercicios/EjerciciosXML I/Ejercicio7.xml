@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<peliculas_libros
+    xmlns:delibros="http://www.libritos.net"
+    xmlns:depelis="http://filmaditas.com">
+
+    <pelicula_libro>
+        <depelis:pelicula>
+            <depelis:titulo>Blade Runner</depelis:titulo>
+            <depelis:director>Ridley Scott</depelis:director>
+            <depelis:sinopsis>En un futuro distópico, un cazador de replicantes debe eliminar a androides rebeldes que se hacen pasar por humanos.</depelis:sinopsis>
+        </depelis:pelicula>
+
+        <delibros:libro>
+            <delibros:titulo>¿Sueñan los androides con ovejas eléctricas?</delibros:titulo>
+            <delibros:autor>Philip K. Dick</delibros:autor>
+            <delibros:sinopsis>Un cazador de recompensas busca y “retira” a androides ilegales en una Tierra devastada, mientras reflexiona sobre la humanidad.</delibros:sinopsis>
+        </delibros:libro>
+    </pelicula_libro>
+
+    <pelicula_libro>
+        <depelis:pelicula>
+            <depelis:titulo>El club de la lucha</depelis:titulo>
+            <depelis:director>David Fincher</depelis:director>
+            <depelis:sinopsis>Un hombre con insomnio encuentra una forma de liberar su frustración formando un club secreto de peleas.</depelis:sinopsis>
+        </depelis:pelicula>
+
+        <delibros:libro>
+            <delibros:titulo>Fight Club</delibros:titulo>
+            <delibros:autor>Chuck Palahniuk</delibros:autor>
+            <delibros:sinopsis>Un narrador anónimo crea un club clandestino donde los hombres canalizan su ira mediante peleas, descubriendo su doble personalidad.</delibros:sinopsis>
+        </delibros:libro>
+    </pelicula_libro>
+
+    <pelicula_libro>
+        <depelis:pelicula>
+            <depelis:titulo>El padrino</depelis:titulo>
+            <depelis:director>Francis Ford Coppola</depelis:director>
+            <depelis:sinopsis>La historia de la familia Corleone, una de las más poderosas del crimen organizado en Nueva York.</depelis:sinopsis>
+        </depelis:pelicula>
+
+        <delibros:libro>
+            <delibros:titulo>El padrino</delibros:titulo>
+            <delibros:autor>Mario Puzo</delibros:autor>
+            <delibros:sinopsis>El ascenso y consolidación de una familia mafiosa italiana en Estados Unidos.</delibros:sinopsis>
+        </delibros:libro>
+    </pelicula_libro>
+
+    <pelicula_libro>
+        <depelis:pelicula>
+            <depelis:titulo>La milla verde</depelis:titulo>
+            <depelis:director>Frank Darabont</depelis:director>
+            <depelis:sinopsis>Un guardia de prisión descubre que un condenado a muerte posee un misterioso don sobrenatural.</depelis:sinopsis>
+        </depelis:pelicula>
+
+        <delibros:libro>
+            <delibros:titulo>El pasillo de la muerte</delibros:titulo>
+            <delibros:autor>Stephen King</delibros:autor>
+            <delibros:sinopsis>Un funcionario de prisiones relata su experiencia con un preso con

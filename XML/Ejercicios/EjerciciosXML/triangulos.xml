@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<triangulos>
+	<triangulo_1>
+		<base_triangulo unidad="cm de base">7</altura_triangulo>
+		<base_triangulo unidad="cm de altura">5</altura_triangulo>
+	</triangulo_1>	
+	
+	<triangulo_2>
+		<base_triangulo unidad="cm de base">2</base_triangulo>
+		<altura_triangulo unidad="cm de altura">6</altura_triangulo>
+	</triangulo_2>	
+	
+	<triangulo_3>
+		<base_triangulo unidad="cm de base">3</base_triangulo>
+		<altura_triangulo unidad="cm de altura">3</altura_triangulo>
+	</triangulo_3>	
+</triangulos>	

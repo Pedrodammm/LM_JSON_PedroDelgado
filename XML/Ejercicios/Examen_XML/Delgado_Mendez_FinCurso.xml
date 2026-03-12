@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<colegio nombre="CEIP Mi Colegio">
+	<actuaciones_fin_curso>
+		<primaria>
+		
+			<primero>
+				<grupos>
+					<a>
+						<lugar>&lt;PATIO PRINCIPAL&gt;</lugar>
+						<dia>JUEVES</dia>
+						<horario>
+							<horas>17</horas>
+							<minutos>00</minutos>
+						</horario>
+						
+					</a>
+					
+					<b>
+						<lugar>&lt;PATIO PRINCIPAL&gt;</lugar>
+						<dia>VIERNES</dia>
+						<horario>
+							<horas>17</horas>
+							<minutos>00</minutos>
+						</horario>
+						
+					</b>
+				</grupos>
+			</primero>
+			
+			<segundo>
+				<grupos>
+					<a>
+						<lugar>&lt;SALÓN DE ACTOS&gt;</lugar>
+						<dia>JUEVES</dia>
+						<horario>
+							<horas>16</horas>
+							<minutos>00</minutos>
+						</horario>
+						
+					</a>
+					
+					<b>
+						<lugar>&lt;SALÓN DE ACTOS&gt;</lugar>
+						<dia>JUEVES</dia>
+						<horario>
+							<horas>19</horas>
+							<minutos>30</minutos>
+						</horario>
+						
+					</b>
+				</grupos>
+			</segundo>
+			
+			<tercero>
+				<grupos>
+					<a>
+						<lugar>&lt;SALÓN DE ACTOS&gt;</lugar>
+						<dia>VIERNES</dia>
+						<horario>
+							<horas>18</horas>
+							<minutos>00</minutos>
+						</horario>
+						
+					</a>
+					
+
+					<b>
+					</b>
+				</grupos>
+			</tercero>
+			
+			<cuarto>
+				<grupos>
+					<a>
+						<lugar>&lt;SALÓN DE ACTOS&gt;</lugar>
+						<dia>VIERNES</dia>
+						<horario>
+							<horas>19</horas>
+							<minutos>30</minutos>
+						</horario>
+						
+					</a>
+					
+					<b>
+					</b>
+				</grupos>	
+			</cuarto>
+			
+			<quinto>
+			</quinto>
+			
+			<sexto>
+			</sexto>
+		</primaria>
+		
+			
+		<parvulitos>
+			<grupos>
+					<a>
+						<lugar>&lt;PATIO PRINCIPAL&gt;</lugar>
+						<dia>VIERNES</dia>
+						<horario>
+							<horas>18</horas>
+							<minutos>30</minutos>
+						</horario>
+						
+					</a>
+					
+					<b>
+						<lugar>&lt;PATIO PRINCIPAL&gt;</lugar>
+						<dia>JUEVES</dia>
+						<horario>
+							<horas>18</horas>
+							<minutos>30</minutos>
+						</horario>
+						
+					</b>
+				</grupos>
+		</parvulitos>
+	</actuaciones_fin_curso>
+</colegio>

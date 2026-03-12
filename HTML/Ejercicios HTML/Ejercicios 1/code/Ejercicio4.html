@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Métodos obsoletos</title>
+</head>
+    
+<body>
+    <h1>Métodos obsoletos en Java</h1>
+
+    <p><strong>Métodos antiguos y sus reemplazos:</strong></p>
+
+    <p><del>getYear()</del> ----- <ins>LocalDate.getYear()</ins></p>
+    <p><del>getMonth()</del> -----<ins>LocalDate.getMonthValue()</ins></p>
+    <p><del>getDay()</del> -----<ins>LocalDate.getDayOfMonth()</ins></p>
+    <p><del>toLocaleString()</del> ----- <ins>DateTimeFormatter.ofPattern("dd/MM/yyyy").format(...)</ins></p>
+
+    <h2>Codigo en Java:</h2>
+
+    <pre>
+            import java.util.Date;
+            import java.util.Calendar;
+            
+            
+            public class EjemploObsoleto {
+                public static void main(String[] args) {
+                    Date fecha = new Date();
+                    
+                    // Método en desuso
+                    int anioObsoleto = fecha.getYear()();
+                    
+                    // Métodos actuales recomendados
+                    Calendar calendario = Calendar.getInstance();
+                    int anioActual = calendario.get(Calendar.YEAR);
+                    
+                    System.out.println("Año con método obsoleto: " + (anioObsoleto + 1900));
+                    System.out.println("Año con método recomendado: " + anioActual);
+                }
+            }
+        </pre>
+
+</body>
+
+</html>

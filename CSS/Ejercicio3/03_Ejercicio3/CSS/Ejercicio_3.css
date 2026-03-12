@@ -1,0 +1,47 @@
+div,
+img {
+  border-radius: 5px;
+}
+
+img {
+  width: 20%;
+}
+
+* {
+  background-color: green;
+}
+
+#cabecera {
+  text-align: center;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5%;
+
+}
+
+#ingredientes {
+  border: 2px dashed white;
+  width:70%;
+  margin: auto;
+  margin-top:50px;
+  padding: 10% 10% 10% 40%;
+  box-sizing: border-box;
+}
+
+#procedimiento {
+  width:40%;
+  border: 1px dotted orange;
+  margin-top:20px;
+  padding:7%;
+}
+
+span {
+  font-weight: bold;
+  color: orange;
+}
+
+.medida {
+  font-style: italic;
+  color: white;
+}

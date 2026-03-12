@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 8</title>
+        <link rel="stylesheet" href="../style/Ejercicio7.css"/>
+        <style>
+           
+        </style>
+    </head>
+
+    <body>
+        <h1>FENRE</h1>
+        <nav>
+            <h3>Conoce las ciudades</h3>
+            <ul>
+                <li><a href="#">Málaga</a></li>
+                <li><a href="#">Cádiz</a></li>
+                <li><a href="#">Sevilla</a></li>
+                <li><a href="#">Jaén</a></li>
+            </ul>
+        </nav>
+
+        <form method="GET" action="procesa_datos.php">
+            <fieldset id="fechayhora">
+                <legend>Fecha y hora</legend>
+                <label id="dat">
+                    Fecha:
+                    <input type="date" name="fech" required>
+                </label>
+                <label id="time">
+                    Hora:
+                    <input type="time" name="hora" required>
+                </label>
+            </fieldset>
+            
+            <div id="flexCiudades">
+                <fieldset class="ciudades">
+                    <legend>Elija estación de origen</legend>
+                    <select id="origen" name="ciu_or">
+                        <option value="mal">Málaga</option>
+                        <option value="cad">Cádiz</option>
+                        <option value="sev">Sevilla</option>
+                        <option value="jaen">Jaén</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="ciudades">
+                    <legend>Elija estación de destino</legend>
+                    <select id="destino" name="ciu_des">
+                        <option value="mal">Málaga</option>
+                        <option value="cad">Cádiz</option>
+                        <option value="sev">Sevilla</option>
+                        <option value="jaen">Jaén</option>
+                    </select>
+                </fieldset>
+            </div>
+
+            <fieldset id="otras_op">
+                <legend>Otras opciones</legend>
+                <label id="pmr">
+                    <input type="checkbox" name="plazaH">Plaza H
+                </label>
+                <div id="comentarios">
+                    <p>¿Algo que comentar?</p>
+                    <textarea name="descripcion"></textarea>
+                    
+                </div>
+            </fieldset>
+            <input id="bottom" type="submit" value="Enviar" name="Enviar Datos">
+        </form>
+    </body>
+
+</html>

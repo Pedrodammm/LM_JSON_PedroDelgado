@@ -1,0 +1,150 @@
+            body {
+                background-color: #eef2ea;;
+                color: #000000ce;
+                margin: auto;
+
+                width:95%;
+                max-width: 1200px;
+                padding:10px;
+
+                display: grid;
+                grid-template-columns: 1fr 4fr;
+                gap: 5px;
+
+            }
+            
+            h1 {
+                
+                background-color: #b3c03c;
+                color: rgb(254, 254, 254);
+                text-align: center;
+                border-radius: 10px;
+
+                grid-column:1 / 3;
+            }
+
+            h3{
+                padding: 10px;
+            }
+            nav {
+                grid-column:1/2;
+                background-color: #4aec9e;
+            
+                border-radius: 10px;
+                height: 100%;
+                
+                margin: auto;              
+            }
+            nav h3 {
+                text-align: center;
+                color: #000000;
+            }
+
+            nav ul {
+                padding-left: 20px;
+                padding-right: 20px;
+                list-style: none;
+                
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav li {
+                background-color: #e8eaf6;
+                margin: 5px 0;
+                padding: 8px;
+                border-radius: 6px;
+                color: #040e04;
+                text-align: center;
+                min-height: 50px;
+            }
+
+            nav li:hover {
+                background-color: #c5cae9;
+            }
+
+            nav a {
+                margin-top: 15px;
+                text-decoration: none;
+                color: #170909;
+                display: block;
+            }
+
+            form {
+                background-color: #6afbba;
+                padding: 25px 30px 15px 30px;
+                border-radius: 12px;
+                width: 95%;
+                max-width: 900px;
+            }
+
+            
+            fieldset {
+                border: 1px solid #000000;
+                margin-bottom: 15px;
+                padding: 15px;
+                background-color: #8bf4ef;
+                border-radius: 10px;
+
+                display: flex;
+                flex-wrap: wrap;
+
+                min-width: 50px;
+                flex: 1 1 auto;
+                
+
+            }
+            legend{
+        
+                color: #000000;
+                border: 1px solid #000000;
+                background-color: #0abebe;
+                border-radius: 5px;
+                
+            }
+            #user{
+                margin-right: 150px;
+                padding: 5px;
+                gap: 10px;
+            }
+            #password{
+                padding: 5px;
+                gap: 10px;
+                margin-left: 50px;
+            }
+            #tipo_curso{
+            
+                padding-left: 20px;
+                padding-right: 50px;
+                margin: auto;
+
+                
+            }
+            #niveles{
+                margin: auto;
+                min-width: 100px;
+
+                
+            }
+            #condiciones{
+                padding: 30px;
+                flex: 1 1 auto;
+                flex-wrap: wrap;
+                min-width: 50px;
+            
+            }
+
+           #info{
+                grid-column:1 / 3;
+                background-color: aqua;
+                border-radius: 5px;;
+                padding: 10px;
+                text-align: center;
+                margin-top: 20px;
+                color: #000000;
+            }
+
+        
+            
+
+            

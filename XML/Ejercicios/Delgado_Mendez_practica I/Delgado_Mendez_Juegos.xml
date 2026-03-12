@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juego>
+	<personajes>
+		<buenos xmlns="www.personajegood.net">
+			<hobbit>
+				<habitat>Comarca</habitat>
+				<fisico>Pies peludos y estatura baja</fisico>
+				<cualidades>
+					<cualidad>Amor por la tranquilidad</cualidad>
+					<cualidad>Amor por la comida</cualidad>
+					<cualidad>Amor por la vida rural</cualidad>
+				</cualidades>
+				<habilidades_principal>
+					<habilidad>Resistencia a los peligros</habilidad>
+				</habilidades_principal>
+				<representan>
+					<representa>Inocencia</representa>
+					<representa>Vida sencilla</representa>
+				</representan>
+			</hobbit>
+		</buenos>
+		
+		<malos xmlns="personajebad.org">
+			<orco>
+				<habitat>Fortalezas oscuras</habitat>
+				<fisico>Aspecto feo y deformado</fisico>
+				<cualidades>
+					<cualidad>Agresivos</cualidad>
+					<cualidad>Violentos</cualidad>
+					<cualidad>Creados para la guerra</cualidad>
+				</cualidades>
+				<habilidades_principal>
+					<habilidad>Fuerza</habilidad>
+					<habilidad>Ferocidad</habilidad>
+					<habilidad>Obediencia a líderes malvados</habilidad>
+				</habilidades_principal>
+				<representan>
+					<representa>Maldad</representa>
+					<representa>Destrucción de la Tierra Media</representa>
+				</representan>
+			</orco>
+		</malos>
+	</personajes>
+</juego>

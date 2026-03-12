@@ -1,0 +1,12 @@
+
+  h1
+    {
+        color: blue;
+        background-color: #ff25ff;
+        border:2px solid rgb(22,5,75);
+
+        border-width:5px;
+        border-style: dotted;
+        border-color: #432ff4;
+    } 
+            

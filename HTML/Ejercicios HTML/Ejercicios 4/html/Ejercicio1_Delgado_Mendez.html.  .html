@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Juanan Profe" />
+        <meta name="description" content="Ejemplo de formularios en Lenguaje de Marcas" />
+        <title>Ejercicio Formularios</title>
+    </head>
+    <body>
+        <form method="post" action="datos_Personales.php">
+            <fieldset>
+                
+                <h1>Mi primer formulario ;)</h1>
+                <p>
+                    <label>
+                        Nombre: <br>
+                        <input type="text" name="nombre_us" size="20" maxlength="6" placeholder="Por ejemplo Juan">                
+                    </label>
+                </p>
+                <p>
+                    <label for="ap1">Primer apellido:</label> <br> 
+                    <input type="text" name="apellido_us1" id="ap1" required placeholder="Por ejemplo López">
+                </p>
+
+                 <p>
+                    <label for="ap2">Segundo apellido:</label> <br> 
+                    <input type="text" name="apellido_us2" id="ap2" autofocus placeholder="Por ejemplo Pérez">
+                </p>
+                
+            </fieldset>
+            
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar datos">
+        </form>
+    </body>
+</html>

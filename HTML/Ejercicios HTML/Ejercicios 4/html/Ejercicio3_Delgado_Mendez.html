@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Pedro Delgado" />
+        <meta name="description" content="Ejemplo de formularios en Lenguaje de Marcas" />
+        <title>Ejercicio Formularios</title>
+    </head>
+    <body>
+        <form method="get" action="info_formulario.php">
+            <h1>Formulario estructurado</h1>
+            <h2>Datos personales</h2>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>
+                    <label>
+                        Nombre:<br />
+                        <input type="text" name="nom" size="20" maxlength="50" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Apellidos:<br />
+                        <input type="text" name="apellidos" size="20" mazlength="100" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Correo electrónico:<br />
+                        <input type="email" name="correo" size="20" mazlength="100" />
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos conexión</legend>
+                <p>
+                    <label>
+                        User:<br />
+                        <input type="text" name="user" size="20" maxlength="50" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Password:<br />
+                        <input type="password" name="password" size="20" mazlength="100" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Password again:<br />
+                        <input type="password" name="password2" size="20" mazlength="100" />
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
