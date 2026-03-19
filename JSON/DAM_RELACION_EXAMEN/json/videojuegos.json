@@ -6,19 +6,19 @@
     "plataformas": ["PlayStation 4", "Xbox One", "PC"],
     "valoraciones":[
         {
-            "nombre": "Juan Juanete",
+            "gamer": "Juan Juanete",
             "jugabilidad": 9,
             "diseño": 10,
             "historia": 10
         },
         {
-            "nombre": "Lorena Gutierrez",
+            "gamer": "Lorena Gutierrez",
             "jugabilidad": 10,
             "diseño": 8.5,
             "historia": 9.75
         },
         {
-            "nombre": "Carlos Sanchez",
+            "gamer": "Carlos Sanchez",
             "jugabilidad": 9.5,
             "diseño": 9,
             "historia": 10
@@ -34,19 +34,19 @@
     "plataformas": ["PlayStation 4", "Xbox One", "PC", "Xbox 360"],
     "valoraciones":[
         {
-            "nombre": "Sofia Vergara",
+            "gamer": "Sofia Vergara",
             "jugabilidad": 7,
             "diseño": 9,
             "historia": 9.5
         },
         {
-            "nombre": "Samuel de Luque",
+            "gamer": "Samuel de Luque",
             "jugabilidad": 10,
             "diseño": 9,
             "historia": 7
         },
         {
-            "nombre": "Arthur Morgan",
+            "gamer": "Arthur Morgan",
             "jugabilidad": 9.5,
             "diseño": 9,
             "historia": 10
