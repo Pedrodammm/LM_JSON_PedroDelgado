@@ -1,0 +1,59 @@
+[
+
+{
+    "nombre": "Red Dead Redemption 2",
+    "desarrolladora": "Rockstar Games",
+    "plataformas": ["PlayStation 4", "Xbox One", "PC"],
+    "valoraciones":[
+        {
+            "nombre": "Juan Juanete",
+            "jugabilidad": 9,
+            "diseño": 10,
+            "historia": 10
+        },
+        {
+            "nombre": "Lorena Gutierrez",
+            "jugabilidad": 10,
+            "diseño": 8.5,
+            "historia": 9.75
+        },
+        {
+            "nombre": "Carlos Sanchez",
+            "jugabilidad": 9.5,
+            "diseño": 9,
+            "historia": 10
+        }
+
+
+    ]
+
+},
+{
+    "nombre": "The Rise of the Tomb Raider",
+    "desarrolladora": "Crystal Dynamics",
+    "plataformas": ["PlayStation 4", "Xbox One", "PC", "Xbox 360"],
+    "valoraciones":[
+        {
+            "nombre": "Sofia Vergara",
+            "jugabilidad": 7,
+            "diseño": 9,
+            "historia": 9.5
+        },
+        {
+            "nombre": "Samuel de Luque",
+            "jugabilidad": 10,
+            "diseño": 9,
+            "historia": 7
+        },
+        {
+            "nombre": "Arthur Morgan",
+            "jugabilidad": 9.5,
+            "diseño": 9,
+            "historia": 10
+        }
+
+
+    ]
+
+}
+]
